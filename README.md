@@ -6,6 +6,7 @@ Kubernetes Korea Group의 Kubernetes Architecture Study 모임
 2. 교재는 [Kubernetes in action](https://book.naver.com/bookdb/book_detail.nhn?bid=14301229)
 3. 4주간 책의 앞부분으로 기초를 쌓고
 4. 그 이후에는 2~3명이 주제를 나눠서 발표형식으로 진행
+5. 모임은 격주로 진행하며, 5/1(휴일)은 4/30일로 대체
 
 ## 스터디 진행 사항
 ### 1회차
