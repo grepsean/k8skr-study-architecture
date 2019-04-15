@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: gitrepo-httpd
+spec:
+  containers:
+  - image: httpd
+    name: web-server
+    volumeMounts:
+    - name: html
+      mountPath: /usr/local/apache2/htdocs
+      readOnly: true
+    ports:
+    - containerPort: 80
+      protocol: TCP
+  volumes:
+  - name: html
+    gitRepo:
+      repository: https://github.com/chhanz/docker_training.git   # Change github address
+      revision: master
+      directory: .
