@@ -19,7 +19,8 @@ ref :  http://docker-saigon.github.io/post/Docker-Internals/
     ▪ UTS 예시
  ![](/chapter_1_2/img/image2_4.png)        
 ## **3. Container를 간단히 만드는 다양한 예시들이 있다**
-    ▪ Containers from Scratch  : Liz Rice
+  ▪ [Containers from Scratch  : Liz Rice](https://www.youtube.com/watch?v=8fi7uSYlOdc)
+
 ![](/chapter_1_2/img/image2_5.png) 
 
     ▪ Docker implemented in around 100 lines of bash : https://github.com/p8952/bocker
