@@ -196,6 +196,17 @@ spec:
       - ReadWriteOnce
 ```
 
+StatefulSet에서 volumeClaimTemplates는 storageclass name 으로 dynamic provision 하며 Static provision으로 PV/PVC를 지정하고 싶으면 volumeClaimTemplates를 사용하는게 아니라, Volume을 사용한다
+
+```yaml
+    ...
+      volumes:
+      - name: localvolume
+        persistentVolumeClaim:
+          claimName: example-local-claim
+    ...
+```
+
 ```bash
 $ k apply -f -<<EOF
 > apiVersion: apps/v1beta1
